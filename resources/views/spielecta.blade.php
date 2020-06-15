@@ -136,5 +136,8 @@
 <script src="js/scripts.js"></script>
 <script src="../unpkg.com/micromodal%400.4.6/dist/micromodal.min.js"></script>
 <script src="js/app.js"></script>
-
+<script>
+    $('.einloggen').removeClass('login-button');
+    $('.registrieren').removeClass('register-button');
+</script>
 @endsection

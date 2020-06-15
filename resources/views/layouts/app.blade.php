@@ -32,8 +32,8 @@
         @if(Auth::user()->isAdmin())
         @endif
         @else
-        <li><a href="{{ route('login') }}" data-href="{{ \Request::route()->getName() == 'contact' ? '1' : '' }}" class="login-button">Einloggen</a></li>
-        <li><a href="{{ route('register') }}" class="register-button" data-href="{{ \Request::route()->getName() == 'contact' ? '1' : '' }}">Registrieren</a></li>
+        <li><a href="{{ route('login') }}" data-href="{{ \Request::route()->getName() == 'contact' ? '1' : '' }}" class="login-button einloggen">Einloggen</a></li>
+        <li><a href="{{ route('register') }}" class="register-button registrieren" data-href="{{ \Request::route()->getName() == 'contact' ? '1' : '' }}">Registrieren</a></li>
         @endif
     </ul>
 </nav>
