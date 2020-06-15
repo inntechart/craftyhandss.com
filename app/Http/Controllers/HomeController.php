@@ -42,6 +42,11 @@ class HomeController extends Controller
         return view('cookies-policy');
     }
 
+    public function spielecta()
+    {
+        return view('spielecta');
+    }
+
     public function connect(Request $request) {
         $this->validate($request, [
             'name' => 'required',

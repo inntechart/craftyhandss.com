@@ -20,6 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/spielecta', 'HomeController@spielecta')->name('spielecta');
 Route::post('/connect', 'HomeController@connect')->name('connect');
 Route::get('/terms-and-conditions', 'HomeController@terms_and_conditions')->name('terms_and_conditions');
 Route::get('/privacy-policy', 'HomeController@privacy_policy')->name('privacy_policy');

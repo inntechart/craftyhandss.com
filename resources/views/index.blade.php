@@ -13,7 +13,7 @@
     </section>
     <section class="button_section">
         <div class="button_block" style="margin: 2% 0;">
-            <a href="spielecta.html" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
+            <a href="{{ route('spielecta') }}" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
         </div>
     </section>
 
@@ -34,7 +34,7 @@
             <p>Spielen Sie so lange Sie wollen, ohne Risiko</p>
         </div>
         <div class="button_block" style="margin-top: 1%;">
-            <a href="spielecta.html" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
+            <a href="{{ route('spielecta') }}" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
         </div>
     </section>
     @include('layouts._login_register_popup')
@@ -48,7 +48,7 @@
                 <main class="cn-content">
                     <h2>Wir verwenden Cookies</h2>
                     <p>
-                        Um deine Erfahrung zu verbessern. <a id="cn-link" href="cookies-policy.html">Cookie Policy</a>
+                        Um deine Erfahrung zu verbessern. <a id="cn-link" href="{{ route('cookies_policy') }}">Cookie Policy</a>
                     </p>
                     <a class="cookie-button cn-button">Okay, Ich verstehe</a>
                 </main>

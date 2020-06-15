@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="button_block">
-                <a href="spielecta.html" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
+                <a href="{{ route('spielecta') }}" target="_self" class="btn btn-check ym-external-link"><span>SPIELE JETZT</span></a>
                 <div style="display: inline-block; padding-top: 20px;">
                     <span class="plus18"><img src="assets/logo-18-plus.png" alt=""></span>
                     <span class="begambleaware"><img src="assets/logo-be-gamble-aware.png" style="height: 35px;"
